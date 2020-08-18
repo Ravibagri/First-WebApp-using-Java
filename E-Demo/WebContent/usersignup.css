@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+.top {
+    padding: 40px;
+}
+
+form {
+    padding: 30px;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 14px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: none;
+    background: #ddd2d2;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+button {
+    background-color: cadetblue;
+    color: white;
+    padding: 14px 20px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 20px;
+}
+
+.cancel,
+.go_touser {
+    float: left;
+    width: 50%;
+}

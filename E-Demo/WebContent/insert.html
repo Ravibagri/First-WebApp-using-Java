@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/insert.css">
+</head>
+
+<body>
+    <form action="insert_servlet" method="POST">
+    
+    	<label for="id"><b>Product ID</b></label>
+    	<input type="number" placeholder="Enter Unique Id" name="id" required>
+
+        <label for="name"><b>Product Name</b></label>
+        <input type="text" placeholder="Enter Product Name" name="name" required>
+
+        <label for="price"><b>Price</b></label>
+        <input type="number" placeholder="Enter Product Price" name="price">
+
+        <label for="file"><b>Product Detail</b></label>
+        <input type="text" placeholder="Enter product details" name="item_detail" >
+
+        <label for="image"><b>Upload image</b></label>
+        <input type="file" accept="image" name="image">
+
+        <button type="submit">Save</button>
+    </form>
+</body>
+
+</html>

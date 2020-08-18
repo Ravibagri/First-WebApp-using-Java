@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="adminsignup.css"></head>
+
+    <body>
+        <form action="signup" method="post">
+            <div class="top">
+                <h3>Sign Up</h3>
+                <p>Please fill in this form to create an account</p>
+                <hr>
+           		<label for="username"><b>Name</b></label>
+           		<input type="text" placeholder="Enter Name" name="username" required>
+           		
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+                <label for="password"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="password" required>
+
+                <label for="password-repeat"><b>Re-Enter Password</b></label>
+                <input type="password" placeholder=" Re-Enter Password" name="repassword" required>
+
+                <label for="State"><b>State</b></label>
+                <select name="state" required>
+                    <option value="1">MadhyaPradesh</option>
+                    <option value="1">Delhi</option>
+                </select>
+                
+                <label for="mobile"><b>Mobile Number</b></label>
+                <input type="text" placeholder="Enter Mobile Number" name="mobile" required>
+                
+                <label for="adminid"><b>Enter Your Admin Id:</b></label>
+                <input type="password" placeholder="Enter Admin Id :" name="adminid">
+
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom: 15px"><sub>Remember Me</sub>
+                <p>By creating an account you agree to our
+                    <a href="#" style="color: royalblue;"> Terms & Privacy</a>.</p>
+                <div>
+                    <button style="margin-bottom: 02px;" type="submit">SignUp as Admin</button>
+                    <a style="text-decoration: none; color: white;" href="home.html"><button class="cancel" type="button">Cancel</button></a>
+                    <a href="usersignup.html"><button class="go_touser" type="button">Go to SignUp As User</button></a>
+                </div>
+                <div>
+                    <p>Already have an account? <a href="login.html">Sign in</a>.</p>
+                </div>
+            </div>
+        </form>
+    </body>
+
+</html>

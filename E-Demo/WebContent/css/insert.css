@@ -1,0 +1,37 @@
+* {
+    box-sizing: content-box;
+}
+
+form {
+    margin: 40px 100px 0px 40px;
+}
+
+input[type=text],
+input[type=file],
+input[type=number],
+input[type=image] {
+    width: 100%;
+    margin: 05px 0px 10px 0px;
+    padding: 10px 14px;
+    border: none;
+    background-color: rgb(155, 151, 155);
+}
+
+input[type=text]:hover {
+    background-color: rgb(218, 211, 211);
+    outline: none;
+}
+
+button {
+    background-color: rgb(38, 90, 73);
+    color: white;
+    padding: 14px 18px;
+    border: none;
+    cursor: pointer;
+    margin: 1% 0% 0% 50%;
+}
+
+button:hover {
+    background-color: teal;
+    outline: none;
+}
